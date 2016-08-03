@@ -93,6 +93,11 @@ extern CGFloat const JTSImageViewController_DefaultBackgroundBlurRadius;
  */
 - (void)dismiss:(BOOL)animated;
 
+/**
+ Allows to set an image to the view controller for cases where you want to download the image youself.
+ */
+- (void)updateInterfaceWithImage:(UIImage *)image;
+
 @end
 
 ///--------------------------------------------------------------------------------------------------------------------
